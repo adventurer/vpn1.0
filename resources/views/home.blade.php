@@ -14,7 +14,7 @@
         <p>有效时间：{{isset($regtime)?$regtime->updated_at:'default'}}-{{isset($regtime)?date('Y-m-d h:i:s',strtotime($regtime->updated_at.' +1 year')):'default'}}</p>
         <p>链接图例：群主只有ios的手机，其余图请自行脑补2333</p>
       </div>
-    </div> 
+    </div>  
 
     <div class="panel col-md-4">
       <div class="panel-body">
