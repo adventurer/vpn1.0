@@ -12,7 +12,7 @@ use App\Tools;
  */
 class HomeController extends Controller
 {
-    public function index()
+    public function index() 
     {
         $name =  Session::get('name');
         if ($name) {
